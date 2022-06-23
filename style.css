@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+body {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.instagram-wrapper {
+    display: flex;
+    gap: 100px;
+}
+
+.instagram-logo {
+   margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form,
+.signin {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+}
+
+.instagram-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px 12px;
+    width: 250px;
+    margin-bottom: 10px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    font-size: 12px;
+}
+
+button {
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(var(--d69,0,149,246),.3);
+    color: #fff;
+    font-weight: 550;
+}
+
+form span {
+    font-size: 13px;
+    align-self: center;
+    margin-top: 17px;
+}
+
+.or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.or span {
+    font-size: 12px;
+    color: #888;
+    padding: 10px 11px;
+    margin-top: -1px;
+    font-weight: 550;
+}
+
+.line {
+    width: 100px;
+    height: 1px;
+    background-color: #ddd;
+}
+
+.facebook {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 13px;
+     font-weight: 600;
+     color: rgb(50, 50, 84);
+     margin-top: 17px;
+}
+
+.facebook img {
+    width: 25px;
+    margin-bottom: 3px;
+    margin-right: 2px;
+}
+
+.password {
+    font-size: 12px;
+    align-self: center;
+    margin-top: 17px;
+    color: rgb(23, 26, 108);
+}
+
+.signin {
+    font-size: 13px;
+}
+
+.signin a {
+    color: rgb(27, 137, 220);
+    font-weight: 600;
+}
+
+.text {
+    align-self: center;
+    color: #444;
+    margin: 15px;
+    font-size: 15px;
+}
